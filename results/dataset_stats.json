@@ -1,0 +1,376 @@
+{
+  "generated_utc": "2026-10-24 08:51:23",
+  "generated_by": "database/scripts/build_data_docs.py",
+  "sample_rows_per_file": 200,
+  "files": {
+    "endomondoHR": {
+      "file": "endomondoHR.json",
+      "size_gb": 6.12,
+      "total_records": 253020,
+      "running_records": 117902,
+      "running_users": 865,
+      "unique_ids": 253020,
+      "n_sports": 49,
+      "sports": {
+        "run": 117902,
+        "bike": 98001,
+        "mountain bike": 13510,
+        "bike (transport)": 10445,
+        "walk": 3831,
+        "indoor cycling": 2606,
+        "core stability training": 1262,
+        "orienteering": 1197,
+        "cross-country skiing": 949,
+        "skate": 512,
+        "roller skiing": 408,
+        "fitness walking": 402,
+        "hiking": 357,
+        "kayaking": 255,
+        "weight training": 237,
+        "circuit training": 218,
+        "gymnastics": 162,
+        "downhill skiing": 144,
+        "rowing": 127,
+        "elliptical": 83,
+        "soccer": 71,
+        "treadmill running": 70,
+        "aerobics": 46,
+        "swimming": 41,
+        "snowshoeing": 32,
+        "yoga": 22,
+        "badminton": 17,
+        "horseback riding": 16,
+        "basketball": 14,
+        "stair climing": 13,
+        "golf": 12,
+        "tennis": 8,
+        "pilates": 7,
+        "rugby": 7,
+        "climbing": 6,
+        "snowboarding": 5,
+        "table tennis": 5,
+        "martial arts": 5,
+        "step counter": 2,
+        "treadmill walking": 2,
+        "sailing": 2,
+        "beach volleyball": 2,
+        "scuba diving": 1,
+        "dancing": 1,
+        "kite surfing": 1,
+        "squash": 1,
+        "wheelchair": 1,
+        "windsurfing": 1,
+        "skateboarding": 1
+      },
+      "running_gender": {
+        "male": 107882,
+        "female": 9360,
+        "unknown": 660
+      },
+      "sample_field_counts": {
+        "10": 155,
+        "11": 45
+      },
+      "scalar_fields": [
+        "gender",
+        "id",
+        "sport",
+        "url",
+        "userId"
+      ],
+      "array_fields": [
+        "altitude",
+        "heart_rate",
+        "latitude",
+        "longitude",
+        "speed",
+        "timestamp"
+      ],
+      "speed_field_present": {
+        "records": 49660,
+        "pct_of_all": 19.6,
+        "running_records": 22167,
+        "pct_of_running": 18.8
+      },
+      "array_lengths_in_sample": {
+        "note": "across all array fields of the 200 sampled records",
+        "exactly_500_pct": 69.9,
+        "top": {
+          "500": 730,
+          "9": 16,
+          "58": 12,
+          "169": 11,
+          "353": 11,
+          "22": 10,
+          "330": 10,
+          "318": 6
+        }
+      },
+      "example_workout": {
+        "workout_id": 27247193,
+        "user_id": 2849785,
+        "sport": "run",
+        "points": 496,
+        "start_utc": "2011-10-14 12:39:23",
+        "url": "https://www.endomondo.com/users/2849785/workouts/27247193"
+      }
+    },
+    "endomondoHR_proper": {
+      "file": "endomondoHR_proper.json",
+      "size_gb": 4.59,
+      "total_records": 167783,
+      "running_records": 70591,
+      "running_users": 807,
+      "unique_ids": 167783,
+      "n_sports": 43,
+      "sports": {
+        "bike": 71915,
+        "run": 70591,
+        "mountain bike": 10722,
+        "bike (transport)": 7757,
+        "indoor cycling": 1725,
+        "walk": 1289,
+        "orienteering": 867,
+        "cross-country skiing": 789,
+        "core stability training": 448,
+        "fitness walking": 292,
+        "skate": 271,
+        "roller skiing": 238,
+        "hiking": 237,
+        "kayaking": 92,
+        "circuit training": 89,
+        "weight training": 74,
+        "rowing": 71,
+        "gymnastics": 66,
+        "soccer": 51,
+        "downhill skiing": 48,
+        "treadmill running": 28,
+        "snowshoeing": 16,
+        "swimming": 14,
+        "golf": 12,
+        "elliptical": 10,
+        "horseback riding": 10,
+        "badminton": 10,
+        "tennis": 8,
+        "basketball": 8,
+        "aerobics": 7,
+        "climbing": 5,
+        "table tennis": 4,
+        "snowboarding": 3,
+        "stair climing": 3,
+        "pilates": 3,
+        "rugby": 3,
+        "yoga": 1,
+        "treadmill walking": 1,
+        "sailing": 1,
+        "kite surfing": 1,
+        "squash": 1,
+        "martial arts": 1,
+        "windsurfing": 1
+      },
+      "running_gender": {
+        "male": 64548,
+        "female": 5575,
+        "unknown": 468
+      },
+      "sample_field_counts": {
+        "10": 166,
+        "11": 34
+      },
+      "scalar_fields": [
+        "gender",
+        "id",
+        "sport",
+        "url",
+        "userId"
+      ],
+      "array_fields": [
+        "altitude",
+        "heart_rate",
+        "latitude",
+        "longitude",
+        "speed",
+        "timestamp"
+      ],
+      "speed_field_present": {
+        "records": 31673,
+        "pct_of_all": 18.9,
+        "running_records": 11532,
+        "pct_of_running": 16.3
+      },
+      "array_lengths_in_sample": {
+        "note": "across all array fields of the 200 sampled records",
+        "exactly_500_pct": 100.0,
+        "top": {
+          "500": 1034
+        }
+      },
+      "example_workout": {
+        "workout_id": 304489967,
+        "user_id": 3288898,
+        "sport": "run",
+        "points": 500,
+        "start_utc": "2013-12-09 23:56:50",
+        "url": "https://www.endomondo.com/users/3288898/workouts/304489967"
+      }
+    },
+    "endomondoMeta": {
+      "file": "endomondoMeta.json",
+      "size_gb": 9.89,
+      "total_records": 962190,
+      "running_records": 347558,
+      "running_users": 1234,
+      "unique_ids": 962190,
+      "n_sports": 61,
+      "sports": {
+        "run": 347558,
+        "bike": 252401,
+        "walk": 100362,
+        "bike (transport)": 98596,
+        "mountain bike": 41778,
+        "indoor cycling": 21878,
+        "weight training": 17673,
+        "swimming": 14272,
+        "core stability training": 6940,
+        "hiking": 6722,
+        "circuit training": 6671,
+        "treadmill running": 5316,
+        "elliptical": 5119,
+        "skate": 4691,
+        "cross-country skiing": 3624,
+        "fitness walking": 3602,
+        "orienteering": 2714,
+        "yoga": 2519,
+        "aerobics": 2509,
+        "rowing": 2121,
+        "roller skiing": 1741,
+        "downhill skiing": 1626,
+        "kayaking": 1316,
+        "gymnastics": 1052,
+        "pilates": 1005,
+        "treadmill walking": 906,
+        "stair climing": 820,
+        "horseback riding": 667,
+        "martial arts": 629,
+        "soccer": 623,
+        "badminton": 553,
+        "skateboarding": 489,
+        "golf": 478,
+        "step counter": 420,
+        "dancing": 332,
+        "snowboarding": 281,
+        "boxing": 263,
+        "sailing": 253,
+        "tennis": 234,
+        "basketball": 215,
+        "squash": 180,
+        "windsurfing": 173,
+        "american football": 131,
+        "snowshoeing": 128,
+        "surfing": 118,
+        "climbing": 107,
+        "hockey": 103,
+        "kite surfing": 72,
+        "baseball": 44,
+        "table tennis": 37,
+        "scuba diving": 35,
+        "volleyball": 25,
+        "beach volleyball": 25,
+        "wheelchair": 16,
+        "rugby": 11,
+        "fencing": 4,
+        "handball": 4,
+        "cricket": 3,
+        "walk (transport)": 2,
+        "polo": 2,
+        "weight lifting": 1
+      },
+      "running_gender": {
+        "male": 311767,
+        "female": 33011,
+        "unknown": 2780
+      },
+      "sample_field_counts": {
+        "13": 200
+      },
+      "scalar_fields": [
+        "ascent",
+        "calories",
+        "descent",
+        "distance",
+        "duration",
+        "gender",
+        "hydration",
+        "id",
+        "sport",
+        "url",
+        "userId",
+        "weather"
+      ],
+      "array_fields": [
+        "timestamp"
+      ],
+      "array_lengths_in_sample": {
+        "note": "across all array fields of the 200 sampled records",
+        "exactly_500_pct": 33.5,
+        "top": {
+          "500": 67,
+          "499": 15,
+          "498": 11,
+          "497": 6,
+          "1": 6,
+          "494": 3,
+          "496": 3,
+          "493": 3
+        }
+      },
+      "field_fill_rate_pct": {
+        "all_records": {
+          "distance": 99.2,
+          "duration": 100.0,
+          "calories": 99.5,
+          "ascent": 93.1,
+          "descent": 93.1,
+          "hydration": 29.3,
+          "weather": 69.7,
+          "weather_with_temperature": 20.4
+        },
+        "running_records": {
+          "distance": 100.0,
+          "duration": 100.0,
+          "calories": 99.6,
+          "ascent": 95.4,
+          "descent": 95.4,
+          "hydration": 16.4,
+          "weather": 70.5,
+          "weather_with_temperature": 18.3
+        }
+      },
+      "example_workout": {
+        "workout_id": 473289671,
+        "user_id": 14066703,
+        "sport": "run",
+        "points": 498,
+        "start_utc": "2015-02-16T20:42:24.000Z",
+        "url": "https://www.endomondo.com/users/14066703/workouts/473289671"
+      }
+    }
+  },
+  "id_overlaps": {
+    "endomondoHR & endomondoHR_proper": {
+      "common": 167783,
+      "only_endomondoHR": 85237,
+      "only_endomondoHR_proper": 0
+    },
+    "endomondoHR & endomondoMeta": {
+      "common": 253020,
+      "only_endomondoHR": 0,
+      "only_endomondoMeta": 709170
+    },
+    "endomondoHR_proper & endomondoMeta": {
+      "common": 167783,
+      "only_endomondoHR_proper": 0,
+      "only_endomondoMeta": 794407
+    }
+  }
+}
