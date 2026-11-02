@@ -1,0 +1,268 @@
+{
+  "generated_utc": "2026-11-02 21:01:58",
+  "generated_by": "src/06_analyse_sharing.py",
+  "source_workouts": 108853,
+  "source_users": 854,
+  "global_by_cell": {
+    "100": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 75591,
+      "mean_users_per_route": 1.015,
+      "pct_routes_2plus_users": 1.1,
+      "pct_interactions_on_shared_routes": 3.0
+    },
+    "200": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 66619,
+      "mean_users_per_route": 1.019,
+      "pct_routes_2plus_users": 1.4,
+      "pct_interactions_on_shared_routes": 3.7
+    },
+    "500": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 57034,
+      "mean_users_per_route": 1.03,
+      "pct_routes_2plus_users": 2.0,
+      "pct_interactions_on_shared_routes": 5.2
+    },
+    "1000": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 51602,
+      "mean_users_per_route": 1.042,
+      "pct_routes_2plus_users": 2.9,
+      "pct_interactions_on_shared_routes": 7.3
+    },
+    "2000": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 45786,
+      "mean_users_per_route": 1.07,
+      "pct_routes_2plus_users": 4.6,
+      "pct_interactions_on_shared_routes": 11.8
+    }
+  },
+  "global_by_key": {
+    "start+end+dist": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 51602,
+      "mean_users_per_route": 1.042,
+      "pct_routes_2plus_users": 2.9,
+      "pct_interactions_on_shared_routes": 7.3
+    },
+    "start+dist": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 44891,
+      "mean_users_per_route": 1.061,
+      "pct_routes_2plus_users": 4.2,
+      "pct_interactions_on_shared_routes": 9.6
+    },
+    "start+end": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 19476,
+      "mean_users_per_route": 1.138,
+      "pct_routes_2plus_users": 7.2,
+      "pct_interactions_on_shared_routes": 18.6
+    },
+    "start": {
+      "workouts": 108853,
+      "users": 854,
+      "routes": 12265,
+      "mean_users_per_route": 1.252,
+      "pct_routes_2plus_users": 12.1,
+      "pct_interactions_on_shared_routes": 25.2
+    }
+  },
+  "dispersion": {
+    "cities": 4951,
+    "cities_with_one_user": 3743,
+    "pct_cities_with_one_user": 75.6,
+    "pct_runs_in_one_user_cities": 37.4,
+    "cities_with_10plus_users": 67,
+    "pct_runs_in_10plus_user_cities": 16.2
+  },
+  "top_cities": {
+    "Copenhagen": {
+      "workouts": 1158,
+      "users": 89,
+      "routes": 361,
+      "mean_users_per_route": 1.698,
+      "pct_routes_2plus_users": 21.3,
+      "pct_interactions_on_shared_routes": 58.9
+    },
+    "Christianshavn": {
+      "workouts": 680,
+      "users": 68,
+      "routes": 240,
+      "mean_users_per_route": 1.475,
+      "pct_routes_2plus_users": 17.1,
+      "pct_interactions_on_shared_routes": 55.3
+    },
+    "Arhus": {
+      "workouts": 1592,
+      "users": 47,
+      "routes": 522,
+      "mean_users_per_route": 1.314,
+      "pct_routes_2plus_users": 16.7,
+      "pct_interactions_on_shared_routes": 43.9
+    },
+    "Charlottenlund": {
+      "workouts": 362,
+      "users": 43,
+      "routes": 140,
+      "mean_users_per_route": 1.229,
+      "pct_routes_2plus_users": 6.4,
+      "pct_interactions_on_shared_routes": 20.7
+    },
+    "Frederiksberg": {
+      "workouts": 633,
+      "users": 35,
+      "routes": 284,
+      "mean_users_per_route": 1.109,
+      "pct_routes_2plus_users": 8.1,
+      "pct_interactions_on_shared_routes": 16.3
+    },
+    "Tarnby": {
+      "workouts": 631,
+      "users": 32,
+      "routes": 175,
+      "mean_users_per_route": 1.217,
+      "pct_routes_2plus_users": 12.0,
+      "pct_interactions_on_shared_routes": 29.2
+    },
+    "Odense": {
+      "workouts": 382,
+      "users": 29,
+      "routes": 171,
+      "mean_users_per_route": 1.135,
+      "pct_routes_2plus_users": 7.0,
+      "pct_interactions_on_shared_routes": 11.5
+    },
+    "Aalborg": {
+      "workouts": 1309,
+      "users": 28,
+      "routes": 439,
+      "mean_users_per_route": 1.303,
+      "pct_routes_2plus_users": 14.1,
+      "pct_interactions_on_shared_routes": 46.9
+    },
+    "Tiergarten Bezirk": {
+      "workouts": 37,
+      "users": 28,
+      "routes": 11,
+      "mean_users_per_route": 3.091,
+      "pct_routes_2plus_users": 27.3,
+      "pct_interactions_on_shared_routes": 78.4
+    },
+    "Vanlose": {
+      "workouts": 297,
+      "users": 25,
+      "routes": 155,
+      "mean_users_per_route": 1.155,
+      "pct_routes_2plus_users": 11.6,
+      "pct_interactions_on_shared_routes": 20.2
+    },
+    "Herlev": {
+      "workouts": 127,
+      "users": 23,
+      "routes": 57,
+      "mean_users_per_route": 1.088,
+      "pct_routes_2plus_users": 5.3,
+      "pct_interactions_on_shared_routes": 7.9
+    },
+    "Poznan": {
+      "workouts": 800,
+      "users": 21,
+      "routes": 217,
+      "mean_users_per_route": 1.157,
+      "pct_routes_2plus_users": 10.6,
+      "pct_interactions_on_shared_routes": 18.1
+    }
+  },
+  "radius_markets": {
+    "Copenhagen": {
+      "10km": {
+        "workouts": 4058,
+        "users": 121,
+        "routes": 1475,
+        "mean_users_per_route": 1.327,
+        "pct_routes_2plus_users": 12.9,
+        "pct_interactions_on_shared_routes": 36.4
+      },
+      "20km": {
+        "workouts": 5796,
+        "users": 133,
+        "routes": 2209,
+        "mean_users_per_route": 1.254,
+        "pct_routes_2plus_users": 11.3,
+        "pct_interactions_on_shared_routes": 32.1
+      },
+      "35km": {
+        "workouts": 8082,
+        "users": 141,
+        "routes": 3157,
+        "mean_users_per_route": 1.195,
+        "pct_routes_2plus_users": 9.1,
+        "pct_interactions_on_shared_routes": 26.4
+      }
+    },
+    "Aarhus": {
+      "10km": {
+        "workouts": 2646,
+        "users": 55,
+        "routes": 865,
+        "mean_users_per_route": 1.244,
+        "pct_routes_2plus_users": 13.6,
+        "pct_interactions_on_shared_routes": 35.4
+      },
+      "20km": {
+        "workouts": 3037,
+        "users": 62,
+        "routes": 1018,
+        "mean_users_per_route": 1.21,
+        "pct_routes_2plus_users": 11.9,
+        "pct_interactions_on_shared_routes": 31.1
+      },
+      "35km": {
+        "workouts": 3547,
+        "users": 71,
+        "routes": 1261,
+        "mean_users_per_route": 1.18,
+        "pct_routes_2plus_users": 10.5,
+        "pct_interactions_on_shared_routes": 27.6
+      }
+    },
+    "Aalborg": {
+      "10km": {
+        "workouts": 1996,
+        "users": 33,
+        "routes": 724,
+        "mean_users_per_route": 1.202,
+        "pct_routes_2plus_users": 10.1,
+        "pct_interactions_on_shared_routes": 34.3
+      },
+      "20km": {
+        "workouts": 2805,
+        "users": 37,
+        "routes": 940,
+        "mean_users_per_route": 1.157,
+        "pct_routes_2plus_users": 8.0,
+        "pct_interactions_on_shared_routes": 24.6
+      },
+      "35km": {
+        "workouts": 3197,
+        "users": 48,
+        "routes": 1098,
+        "mean_users_per_route": 1.14,
+        "pct_routes_2plus_users": 7.2,
+        "pct_interactions_on_shared_routes": 21.9
+      }
+    }
+  }
+}
