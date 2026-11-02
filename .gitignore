@@ -1,0 +1,28 @@
+# Pipeline outputs — generated from the raw FitRec files, never committed
+data/
+*.npy
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
