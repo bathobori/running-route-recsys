@@ -1,0 +1,209 @@
+{
+  "generated_utc": "2026-10-25 10:16:59",
+  "generated_by": "database/scripts/07_cf_benchmark.py",
+  "protocol": {
+    "split": "leave-one-out on each user's most recent unique (user, route) pair",
+    "ranking": "full ranking over all routes the user has not already run",
+    "k": 10
+  },
+  "markets": {
+    "Copenhagen city label / 1000 m cells": {
+      "users": 61,
+      "routes": 356,
+      "unique_pairs": 585,
+      "test_cases": 61,
+      "ceiling_HR": 0.6721,
+      "results": {
+        "Random": {
+          "HR@10": 0.0164,
+          "NDCG@10": 0.0164
+        },
+        "MostPopular": {
+          "HR@10": 0.377,
+          "NDCG@10": 0.2177
+        },
+        "ItemKNN": {
+          "HR@10": 0.0328,
+          "NDCG@10": 0.0185
+        },
+        "ALS": {
+          "HR@10": 0.1148,
+          "NDCG@10": 0.0443
+        },
+        "BPR": {
+          "HR@10": 0.3279,
+          "NDCG@10": 0.1805
+        },
+        "SVD": {
+          "HR@10": 0.082,
+          "NDCG@10": 0.0305
+        }
+      }
+    },
+    "Copenhagen city label / 2000 m cells": {
+      "users": 60,
+      "routes": 253,
+      "unique_pairs": 545,
+      "test_cases": 60,
+      "ceiling_HR": 0.85,
+      "results": {
+        "Random": {
+          "HR@10": 0.05,
+          "NDCG@10": 0.0186
+        },
+        "MostPopular": {
+          "HR@10": 0.4667,
+          "NDCG@10": 0.2829
+        },
+        "ItemKNN": {
+          "HR@10": 0.0667,
+          "NDCG@10": 0.0351
+        },
+        "ALS": {
+          "HR@10": 0.1333,
+          "NDCG@10": 0.0918
+        },
+        "BPR": {
+          "HR@10": 0.4333,
+          "NDCG@10": 0.2836
+        },
+        "SVD": {
+          "HR@10": 0.1333,
+          "NDCG@10": 0.0785
+        }
+      }
+    },
+    "Copenhagen 10 km radius / 1000 m cells": {
+      "users": 92,
+      "routes": 1468,
+      "unique_pairs": 1928,
+      "test_cases": 92,
+      "ceiling_HR": 0.5652,
+      "results": {
+        "Random": {
+          "HR@10": 0.0,
+          "NDCG@10": 0.0
+        },
+        "MostPopular": {
+          "HR@10": 0.2391,
+          "NDCG@10": 0.1653
+        },
+        "ItemKNN": {
+          "HR@10": 0.0543,
+          "NDCG@10": 0.0289
+        },
+        "ALS": {
+          "HR@10": 0.087,
+          "NDCG@10": 0.0491
+        },
+        "BPR": {
+          "HR@10": 0.2174,
+          "NDCG@10": 0.1364
+        },
+        "SVD": {
+          "HR@10": 0.087,
+          "NDCG@10": 0.0482
+        }
+      }
+    },
+    "Copenhagen 10 km radius / 2000 m cells": {
+      "users": 91,
+      "routes": 952,
+      "unique_pairs": 1662,
+      "test_cases": 91,
+      "ceiling_HR": 0.7473,
+      "results": {
+        "Random": {
+          "HR@10": 0.011,
+          "NDCG@10": 0.011
+        },
+        "MostPopular": {
+          "HR@10": 0.2637,
+          "NDCG@10": 0.1817
+        },
+        "ItemKNN": {
+          "HR@10": 0.1429,
+          "NDCG@10": 0.0964
+        },
+        "ALS": {
+          "HR@10": 0.1319,
+          "NDCG@10": 0.0797
+        },
+        "BPR": {
+          "HR@10": 0.1868,
+          "NDCG@10": 0.1258
+        },
+        "SVD": {
+          "HR@10": 0.1538,
+          "NDCG@10": 0.0725
+        }
+      }
+    },
+    "Copenhagen 20 km radius / 1000 m cells": {
+      "users": 104,
+      "routes": 2198,
+      "unique_pairs": 2742,
+      "test_cases": 104,
+      "ceiling_HR": 0.4423,
+      "results": {
+        "Random": {
+          "HR@10": 0.0,
+          "NDCG@10": 0.0
+        },
+        "MostPopular": {
+          "HR@10": 0.1442,
+          "NDCG@10": 0.0929
+        },
+        "ItemKNN": {
+          "HR@10": 0.0192,
+          "NDCG@10": 0.0089
+        },
+        "ALS": {
+          "HR@10": 0.0769,
+          "NDCG@10": 0.054
+        },
+        "BPR": {
+          "HR@10": 0.1538,
+          "NDCG@10": 0.0826
+        },
+        "SVD": {
+          "HR@10": 0.0865,
+          "NDCG@10": 0.0594
+        }
+      }
+    },
+    "Copenhagen 20 km radius / 2000 m cells": {
+      "users": 102,
+      "routes": 1543,
+      "unique_pairs": 2370,
+      "test_cases": 102,
+      "ceiling_HR": 0.6275,
+      "results": {
+        "Random": {
+          "HR@10": 0.0098,
+          "NDCG@10": 0.0028
+        },
+        "MostPopular": {
+          "HR@10": 0.1569,
+          "NDCG@10": 0.1005
+        },
+        "ItemKNN": {
+          "HR@10": 0.0784,
+          "NDCG@10": 0.0464
+        },
+        "ALS": {
+          "HR@10": 0.0686,
+          "NDCG@10": 0.0357
+        },
+        "BPR": {
+          "HR@10": 0.1765,
+          "NDCG@10": 0.1077
+        },
+        "SVD": {
+          "HR@10": 0.0686,
+          "NDCG@10": 0.0401
+        }
+      }
+    }
+  }
+}
